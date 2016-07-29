@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Pattaya);
+
+/*===== NAV =====*/
+.my-navbar {
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:9999;
+  background-color:#222;
+}
+.my-brand {
+  font-family:Pattaya,cursive;
+  font-size:24px;
+}
+.nav-text {
+  color:#CCC !important;
+}
+
+/*===== JUMBOTRON =====*/
+.jumbo-top {
+  margin-top:50px;
+}
+.jumbo-bottom {
+  margin-bottom:50px;
+}
+
+/*===== CONTACT =====*/
+.avatar {
+  width:100%;
+}
+.contact-main {
+  margin-bottom:100px;
+}
+
+/*===== FOOTER =====*/
+.footer {
+  position:fixed;
+  width:100%;
+  z-index:9999;
+  bottom:0;
+  background-color:#222;
+  color:#CCC;
+  padding:15px;
+}
+.social, .social:hover {
+  text-decoration:none;
+  color:#3F7FFF;
+}
