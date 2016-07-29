@@ -1,4 +1,32 @@
-@import url(https://fonts.googleapis.com/css?family=Pattaya);
+@import url(https://fonts.googleapis.com/css?family=Pattaya|Roboto:400,700);
+
+/*===== GLOBAL =====*/
+body {
+  font-family:Roboto,sans-serif;
+}
+
+/*===== WELCOME =====*/
+.welcome {
+  position:absolute;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+}
+.btn-welcome {
+  margin-top:40vh;
+  font-size:48px;
+}
+#bg {
+  position:fixed;
+  top:0;
+  left:0;
+}
+.bgwidth {
+  width:100%;
+}
+.bgheight {
+  height:100%;
+}
 
 /*===== NAV =====*/
 .my-navbar {
@@ -11,6 +39,7 @@
 .my-brand {
   font-family:Pattaya,cursive;
   font-size:24px;
+  color:#FF7F00 !important;
 }
 .nav-text {
   color:#CCC !important;
@@ -22,6 +51,13 @@
 }
 .jumbo-bottom {
   margin-bottom:50px;
+  height:300px;
+  background-image:url(../img/restaurante.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.jumbo-bottom h3 {
+  color:#FFF;
 }
 
 /*===== CONTACT =====*/
