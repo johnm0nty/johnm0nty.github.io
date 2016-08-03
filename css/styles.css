@@ -3,6 +3,8 @@
 /*===== GLOBAL =====*/
 body {
   font-family:Roboto,sans-serif;
+  color:#003;
+  background-color:#ACF;
 }
 
 /*===== WELCOME =====*/
@@ -13,8 +15,11 @@ body {
   overflow:hidden;
 }
 .btn-welcome {
-  margin-top:40vh;
-  font-size:48px;
+  font-size:32px;
+  color:#000;
+  background-color:#FFF;
+  border:1px solid #000;
+  margin-top:10px;
 }
 #bg {
   position:fixed;
@@ -27,6 +32,18 @@ body {
 .bgheight {
   height:100%;
 }
+.welcome-brand {
+  margin-top:20vh;
+  font-family:Pattaya,cursive;
+  font-size:72px;
+  color:#FFF;
+  text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
+}
+.welcome-line {
+  font-size:36px;
+  color:#FFF;
+  text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
+}
 
 /*===== NAV =====*/
 .my-navbar {
@@ -35,29 +52,40 @@ body {
   top:0;
   z-index:9999;
   background-color:#222;
+  border:0;
+  border-radius:0;
 }
 .my-brand {
   font-family:Pattaya,cursive;
   font-size:24px;
-  color:#FF7F00 !important;
+  color:#3F7FFF !important;
 }
 .nav-text {
   color:#CCC !important;
+}
+.nav-active, .nav-active:hover {
+  background-color:#7F7F7F !important;
 }
 
 /*===== JUMBOTRON =====*/
 .jumbo-top {
   margin-top:50px;
+  background-color:#90C0FF;
+  border-bottom:2px solid #000;
 }
 .jumbo-bottom {
   margin-bottom:50px;
+  padding:0;
   height:300px;
+  width:100%;
   background-image:url(../img/restaurante.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
 .jumbo-bottom h3 {
   color:#FFF;
+  text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
+  font-size:48px;
 }
 
 /*===== CONTACT =====*/
@@ -66,6 +94,19 @@ body {
 }
 .contact-main {
   margin-bottom:100px;
+}
+.contact-text {
+  font-size:24px;
+  margin-top:0;
+}
+
+/*===== PORTFOLIO =====*/
+.portfolio-thumbs {
+  margin:20px 0 50px 0;
+}
+.thumbnail {
+  border:0;
+  background:transparent;
 }
 
 /*===== FOOTER =====*/
@@ -78,7 +119,7 @@ body {
   color:#CCC;
   padding:15px;
 }
-.social, .social:hover {
+.social, .social:hover, .hire, .hire:hover {
   text-decoration:none;
   color:#3F7FFF;
 }
