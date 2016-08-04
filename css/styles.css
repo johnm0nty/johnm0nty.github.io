@@ -123,3 +123,11 @@ body {
   text-decoration:none;
   color:#3F7FFF;
 }
+.social-text {
+  font-style:normal;
+}
+@media only screen and (max-width:768px) {
+  .social-text {
+    display:none;
+  }
+}
