@@ -45,6 +45,9 @@ body {
   color:#FFF;
   text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
 }
+.welcome-container {
+  margin-bottom:100px;
+}
 
 /*===== NAV =====*/
 .my-navbar {
