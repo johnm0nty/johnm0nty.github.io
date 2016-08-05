@@ -4,7 +4,8 @@
 body {
   font-family:Roboto,sans-serif;
   color:#003;
-  background-color:#ACF;
+  background:#ACF;
+  background:linear-gradient(to top right,#ACF,#FFF);
 }
 
 /*===== WELCOME =====*/
@@ -85,7 +86,7 @@ body {
 .jumbo-bottom h3 {
   color:#FFF;
   text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
-  font-size:48px;
+  font-size:36px;
 }
 
 /*===== CONTACT =====*/
@@ -126,7 +127,7 @@ body {
 .social-text {
   font-style:normal;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:400px) {
   .social-text {
     display:none;
   }
