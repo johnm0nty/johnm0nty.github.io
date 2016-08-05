@@ -138,8 +138,25 @@ body {
 .social-text {
   font-style:normal;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:510px) {
   .social-text {
+    display:none;
+  }
+}
+.small-hr {
+  color:#FFF;
+  z-index:9999;
+}
+@media only screen and (min-width:992px) {
+  .small-hr {
+    display:none;
+  }
+  .small-br {
+    display:none;
+  }
+}
+@media only screen and (min-width:541px) {
+  .smaller-br {
     display:none;
   }
 }
