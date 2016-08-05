@@ -71,7 +71,7 @@ body {
 /*===== JUMBOTRON =====*/
 .jumbo-top {
   margin-top:50px;
-  background-color:#90C0FF;
+  background:linear-gradient(to bottom right,#90C0FF,#FFF);
   border-bottom:2px solid #000;
 }
 .jumbo-bottom {
@@ -87,6 +87,17 @@ body {
   color:#FFF;
   text-shadow:-1px 0 0 #000,1px 0 0 #000,0 -1px 0 #000,0 1px 0 #000;
   font-size:36px;
+}
+
+/*===== MAIN =====*/
+.thumb-pic:hover {
+  opacity:0.5;
+}
+.home-words {
+  font-style:normal;
+}
+.home-words:hover {
+  opacity:0.5;
 }
 
 /*===== CONTACT =====*/
